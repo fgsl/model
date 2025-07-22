@@ -6,17 +6,20 @@ use PHPUnit\Framework\TestCase;
 
 class ModelTest extends TestCase
 {
-    public function testModel() 
+    /**
+     * @covers Person
+     */
+    public function testModel()
     {
-        $adapter = new Mock();    
+        $adapter = new Mock();
 
         $person = new Person('code','person',$adapter);
         $person->exchangeArray([
             'code' => 42,
-            'name' => 'Answer'       
+            'name' => 'Answer'
         ]);
         
-        $this->assertIsArray($person->getArrayCopy());        
+        $this->assertIsArray($person->getArrayCopy());
         $this->assertIsInt($person->getArrayCopy()['code']);
         $this->assertCount(2, $person->getArrayCopy());
     }
