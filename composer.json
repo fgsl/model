@@ -20,7 +20,7 @@
 	},
 	"require" : {
 		"php" : "^8.2",
-		"laminas/laminas-servicemanager": "4.4",
+		"laminas/laminas-servicemanager": "^3",
 		"fgsl/mock": "^3.0",
 		"fgsl/input-filter": "^2.0"
 	},
