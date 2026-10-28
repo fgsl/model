@@ -19,8 +19,8 @@
 		}
 	},
 	"require" : {
-		"php" : "^8.2",
-		"laminas/laminas-servicemanager": "^3",
+		"php" : "^8.5",
+		"laminas/laminas-servicemanager": "^4.5.1",
 		"fgsl/mock": "^3.0",
 		"fgsl/input-filter": "^2.0"
 	},
