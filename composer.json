@@ -22,7 +22,7 @@
 		"php" : "^8.5",
 		"laminas/laminas-servicemanager": "^4.5.1",
 		"fgsl/mock": "^3.0",
-		"fgsl/input-filter": "^2.0"
+		"fgsl/input-filter": "^3.0"
 	},
 	"require-dev" : {
 		"phpunit/phpunit" : "^10.5"
